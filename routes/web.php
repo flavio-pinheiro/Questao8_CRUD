@@ -14,7 +14,7 @@ use App\Http\Controllers\PessoaController;
 |
 */
 
-Route::get('/', [PessoaController::class, 'index']);
+Route::get('/', [PessoaController::class, 'index']); 
 
 Route::get('/pessoas/create', [PessoaController::class, 'create']);
 
